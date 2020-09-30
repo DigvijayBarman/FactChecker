@@ -17,5 +17,8 @@ def fake(request): #Fake
 # 	return render()
 
 
-def results(request):
-	return render(request, 'main/results.html')
+# def results(request):
+# 	if request.method == 'GET':
+# 		entry = request.GET.get('q')
+		
+# 	return render(request, 'main/results.html')

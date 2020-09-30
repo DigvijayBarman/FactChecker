@@ -31,6 +31,7 @@
   {% csrf_token %}
   <div class="wrapper">
     <div class="search_box">
+        
         <input type="text" name="q" placeholder="Find the truth now!" value="{{ request.GET.q }}" />
         <i class="fas fa-search"></i>
     </div>  
