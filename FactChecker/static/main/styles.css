@@ -1,0 +1,137 @@
+  
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;\\
+}
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #30e3ca;
+  text-align: center;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #30e3ca;
+  color: black;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+.centered {
+  position: absolute;
+  top: 43%;
+ left: 50%;
+ font-family: 'Leckerli One';
+color: #30e3ca;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+}
+.fake {
+  position: absolute;
+  top: 35%;
+ left: 50%;
+ font-family: 'Leckerli One';
+color: black;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.true {
+  position: absolute;
+  top: 35%;
+ left: 50%;
+ font-family: 'Leckerli One';
+color: Black;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+.uver {
+  position: absolute;
+  top: 35%;
+ left: 50%;
+ font-family: 'Leckerli One';
+color: Black;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+
+
+.wrapper{
+  background: url("bg.jpg") no-repeat center ;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_box{
+  width: 50%;
+
+  position: relative;
+}
+
+.search_box input[type="text"]{
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.3);
+  border: 3px solid #fff;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+
+.fa-search{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: #30e3ca;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+ 
+  color: #fff;
+}
+::-moz-placeholder {
+ 
+  color: #fff;
+}
+:-ms-input-placeholder {
+
+  color: #fff;
+}
+
+@media screen and (max-width: 425px){
+  .search_box{
+    width: 95%;
+  }
+
+}
